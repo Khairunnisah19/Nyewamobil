@@ -1,0 +1,386 @@
+﻿body{
+margin: 0;
+padding: 0;	
+/*box-shadow: none !important;*/
+}
+input[type=text]:focus, textarea:focus, input[type=password]:focus, textarea:focus {
+  border: #708090 1px solid !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+}
+.inline{
+	display:inline;
+	float: left;
+	margin-right: 20px;
+}
+.inline_kanan{
+	float: left;
+	display:inline;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+.status_merah{
+	color: red;
+}
+.status_hijau{
+	color: #33CC33;
+}
+.icon{
+	height: 40px;
+	width: 50px;
+	float: right;
+	margin-right: 6px;
+}
+.atas{
+	margin-right: 150px !important;
+}
+.menu{
+	border-radius: 20px 20px 0px 0px; /*kiri, kanan*/
+	-moz-border-radius: 20px 20px 0px 0px;
+	-webkit-border-radius: 20px 20px 0px 0px;
+	border: 0px solid #000000;
+	background-color:#006633;
+	width:150px;
+	height:35px;
+	text-align:center;
+	font-family:"Courier New", Courier, monospace;
+	color:white;
+	display:inline;
+	float: left;
+	margin-top:35px;
+	margin-right:2px;
+}
+.menudashboard{
+	border-radius: 20px 20px 0px 0px; /*kiri, kanan*/
+	-moz-border-radius: 20px 20px 0px 0px;
+	-webkit-border-radius: 20px 20px 0px 0px;
+	border: 0px solid #000000;
+	background-color:#33CC33;
+	width:150px;
+	height:35px;
+	text-align:center;
+	font-family:"Courier New", Courier, monospace;
+	color:white;
+	display:inline;
+	float: left;
+	margin-top:35px;
+	margin-right:2px;
+}
+.pointer{
+	cursor:pointer;
+}
+button{
+	border: none;
+}
+.pencarian{
+	width:100%; 
+	height:80px; 
+	background-color: #33CC33;
+	-moz-box-shadow: 5px 5px 75px #f4fcfb;
+	-webkit-box-shadow: 5px 5px 75px #f4fcfb;
+	box-shadow: 5px 5px 75px #f4fcfb;
+}
+.warna_background{
+	background-color: #000;
+}
+.button_login{
+	background-color:  #33CC33; 
+	padding:20px; 
+	height: 100px; 
+	border-radius: 15px;
+	/*box-shadow: 4px 4px 5px #fff;*/
+}
+.melengkung{
+	padding: 4px 20px;
+	border-radius: 12px
+}
+.button{
+	padding: 4px 20px;
+	background-color:  #33CC33; 
+	border-radius: 4px;
+	/*box-shadow: 2px 2px 2px #fff;*/
+}
+.button_daftar{
+	width:100px !important; 
+	background-color:  #33CC33; 
+	padding:5px !important; 
+	border-radius:10px !important;
+}
+.border_hitam{
+	-moz-box-shadow: 5px 5px 75px #33CC33;
+	-webkit-box-shadow: 5px 5px 75px #33CC33;
+	box-shadow: 5px 5px 75px #33CC33;	
+}
+.border_hijau{
+	border: 6px #33CC33 solid;
+	margin-top: 69px;
+	
+}
+.box_hijau{
+	background-color: #33CC33;
+	color: white;
+	width: 150px;
+	font-size: 14x;
+	height: 30px;
+	text-align: center;
+	display: inline;
+}
+.box_hijautua{
+	background-color: #006633;
+	color: white;
+	width: 160px;
+	font-size: 14x;
+	height: 30px;
+	padding-left:10px;
+}
+.box_kuning{
+	background-color: #FFCC00;
+	width: 160px;
+	font-size: 14x;
+	height: 30px;
+	padding-left:10px;
+	display: inline;
+}
+.box_abu{
+	background-color: #E6E6E6;
+	width: 160px;
+	font-size: 14x;
+	height: 30px;
+	padding-left:10px;
+}
+.box_hitam{
+	background-color: black;
+	width: 160px;
+	height: 30px;
+	color: white;
+}
+.tengah{
+	margin-left: 25%;
+ }
+ .kursor{
+	cursor: pointer;
+}
+.box_putih{
+	background-color: white;
+	width: 160px;
+	font-size: 14x;
+	height: 30px;
+	padding-left:10px;
+}
+.testimoni{
+	display: inline !important;
+	float: right !important;
+	margin-right: 25% !important;
+}
+.jargon{
+	display: inline;
+	float: left !important;
+	margin-left: 4%;
+}
+.radius{
+	border-radius: 41px 41px 0px 0px;
+	-moz-border-radius: 41px 41px 0px 0px;
+	-webkit-border-radius: 41px 41px 0px 0px;
+	border: 0px solid #000000;
+	background-color:#009933;
+	width:250px;
+	height:30px;
+	text-align:center;
+	font-size:x-large;
+	font-family:"Courier New", Courier, monospace;
+	color:white;
+}
+.gabung_regis{
+	position:relative;
+	margin-right:300px;
+	float:right;
+
+}
+.footer {
+	font-size:15px; 
+	font-family:'Courier New', Courier, monospace; 
+	color:white;
+	width:100%; 
+	height: 75px;
+	text-align: center;
+	background-color: #16aa21;
+	margin-top: 25px;
+}
+.registrasi {
+	background-color: #E1E1DE;
+	-moz-box-shadow: 0 10px 6px -6px #777;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+	width: 80%;
+	height: 500px;
+}
+.header_registrasi {
+	background-color: #CCCCCC;
+	width: 80%;
+	height:40px;
+}
+.header_listmobil {
+	background-color: #009933;
+	width: 80%;
+	height:40px;
+	color: white;
+	-moz-box-shadow: 0 10px 6px -6px #777;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+}
+.listmobil_user{
+	background-color: #FAFAFA;
+	margin-right: 20%;
+	overflow:hidden;
+}
+.garis_abu{
+	border: 1px #E6E6E6 solid;
+}
+.font_besar{
+	font-size: 20px;
+}
+.abu{
+	background-color: #CCCCCC;
+}
+.left_listmobil{
+	width: 20%;
+	background-color: white;
+	float: left;
+	margin-left: 3%;
+	display: inline;
+	padding-left: 11px;
+}
+.tulisan_listmobil{
+	margin-left: 100px;
+	font-size: 40px;
+	color: #33CC33;
+	display: inline;
+}
+.right_listmobil{
+	width: 75%;
+	background-color: white;
+	display: inline;
+	float: right;
+	padding: 20px;
+}
+.list_permobil{
+	width: 75%;
+	background-color: white;
+	display: inline;
+	
+}
+.margin_left{
+	float:left;
+	margin-top: 2px;
+	margin-left: 20px;
+}
+.margin_kanan{
+	margin-top: 2px;
+	float:right;
+	margin-left: 3%;
+}
+.spinner {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -50px; /* half width of the spinner gif */
+    margin-top: -50px; /* half height of the spinner gif */
+    text-align:center;
+    z-index:1234;
+    overflow: auto;
+    width: 100px; /* width of the spinner gif */
+    height: 102px; /*hight of the spinner gif +2px to fix IE8 issue */
+}
+.paging {
+	list-style: none !important;
+	display:inline !important;
+	border-radius: 4px;
+    display: inline-block;
+    margin: 20px 0;
+    padding-left: 0;
+}
+li, ul {
+	list-style: none !important;
+}
+.project figure {
+    position: relative;
+    display: inline-block;
+    width: 283px;
+    -moz-box-shadow: 0 3px 0 #e2e2e2,transparent 0 0 0;
+    -webkit-box-shadow: 0 3px 0 #e2e2e2,transparent 0 0 0;
+    box-shadow: 0 3px 0 #e2e2e2,transparent 0 0 0;
+    -webkit-box-shadow: 0 3px 0 #e2e2e2;
+    -moz-box-shadow: 0 3px 0 #e2e2e2;
+    box-shadow: 0 3px 0 #e2e2e2;
+}
+.project figure figcaption {
+    position: relative;
+    z-index: 10;
+    padding: 8px 18px 11px;
+    background: #fff;
+    -ms-transition: all .2s ease-out;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+    text-align: left;
+    color: #555;
+}
+.project figure:hover .actions {
+    opacity: 1;
+}
+.project figure .actions {
+    display: block;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgba(29,29,29,.7);
+    -ms-transition: all .2s ease-out;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+}
+.project figure img {
+    border: 0;
+    width: 100%;
+}
+a.sliderImage {
+	margin: 0 25px 0 25px;
+	text-align: center;
+	display: block;
+}
+a.pname {
+	margin: 25px;
+	text-align: 
+	center;display: block;
+}		
+#slider {
+height:250px;
+}
+.img_slider{
+	height: 200px !important!;
+	width: 20%;
+}
+.container{
+	margin-left: 15%;
+}
+.item{
+	/*background: black;*/  
+	text-align: center;
+	height: 300px !important;
+}
+.carousel{
+	margin-top: 20px;
+}
+.bs-example{
+	margin: 20px;
+}
+/*.carousel-control {
+  padding-top:10%;
+  width:5%;
+}*/
